@@ -17,17 +17,14 @@ function logWhisper(string) {
 }
 
 function sayHiToGrandma(string) {
-  switch(string) {
-  case "string === string.toLowerCase":
+  
+  if ( "string === string.toLowerCase") {
     return ("I can\'t hear you!");
-    break;
-  case "string === string.toUpperCase":
+  }
+  if ( "string === string.toUpperCase") {
     return ("YES INDEED!");
-    break;
-  case "string === I love you, Grandma.":
-    return ("I love you, too.");
-    break;
-  default:
-    return "";
+  } 
+  if ("string === I love you, Grandma.")
+    return ("I love you, too."); {
   }
 }
